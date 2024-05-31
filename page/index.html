@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .facebook-parent {
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: space-between;
+            height: 100vh;
+            width: auto;
+            padding: 180px 170px;
+        }
+
+        .facebook h1 {
+            color: #0866ff;
+            font-size: 60px;
+        }
+
+        .facebook p {
+            color: #1c1e56;
+            font-size: 30px;
+        }
+
+        .container {
+            box-shadow: 0px 0px 15px 0px rgb(146, 145, 145);
+            background-color: rgb(255, 255, 255);
+            border: solid rgb(221, 214, 214)2px;
+            border-radius: 10px;
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+            padding: 30px 30px;
+        }
+
+        .container input {
+            padding: 12px 70px;
+            font-size: 15px;
+
+        }
+
+        .login {
+            background-color: #0866ff;
+            color: white;
+            padding: 12px 0px;
+            font-size: 18px;
+            border: none;
+            border-radius: 6px;
+        }
+
+        .password {
+            color: #0866ff;
+        }
+
+        .account {
+            color: white;
+            background-color: #42b72a;
+            border: none;
+            margin: 20px 60px;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 18px;
+        }
+
+        .page {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 6px;
+            padding-top: 50px;
+        }
+
+        .page a {
+            color: black;
+        }
+
+    .forgot{
+        color: aqua;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="facebook-parent">
+        <div>
+            <div class="facebook">
+                <h1>facebook</h1>
+                <p>Connect with Friends and the world <br> around you on facebook</p>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <input class="input" placeholder="Username" type="text">
+                <input class="password" placeholder="password" type="text">
+                <button class="login">Log In</button>
+                <a class="Forgot" href="">Forgot password</a>
+                <button class="account">Create New Account</button>
+            </div>
+            <div class="page">
+                <a href=""><b>Create a page</b></a>
+                <p> for a celebraty,brand or a business</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html
